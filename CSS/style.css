@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/CSS?family=Lora:400|Roboto:400,700");
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightsalmon;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container_head {
+    background-color: ghostwhite;
+    background-image: url("images/img-banner.jpeg");
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-red {
+    color: ghostwhite;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+}
+.btn-blue {
+    background: salmon;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    margin: 10px;
+    flex: 1 1 40%;
+}
+.btn-blue:hover {
+background-color: black;
+color: white;
+}
+
+p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left; /* Change to left alignment */
+    margin: 40px;
+}
+
+p {
+    font-weight: 400;
+    margin: 20px 40px; /* Adjust margin as needed */
+    color: black; /* Adjust paragraph color as needed */
+}
+
+h2 {
+    color: mediumpurple;
+    text-shadow: #494949 1px 0 10px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 700;
+    color: white;
+    text-shadow: #9B0707 0 0 10px;
+    text-align: center
+}
+a:hover {
+    color: skyblue;
+}
+
+img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+
